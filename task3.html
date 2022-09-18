@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        *,body,html {
+            padding: 0%;
+            margin: 0%;
+        }
+        nav{ 
+            padding: 10px;
+            display:flex;
+            justify-content: space-between;
+        }
+        ul li {
+            display: inline-block;
+            margin-right: 50px;
+        }
+        ul li a{ 
+            text-decoration: none;
+            color: black;
+        }
+        .logo{ 
+            font-size: 25px;
+        }
+        .landing{ 
+            height: 80vh;
+            background: url('./bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .best{ 
+        position: absolute;
+        width: 60%;
+        background-color: rgba(13, 194, 179,0.8);
+        color: white;
+        padding: 2% 5% 2% 5%;
+        box-sizing: border-box;
+        top: 40%;
+        }
+        .best h1{ 
+            margin-bottom: 10px;
+        }
+        .arrow{ 
+            position: absolute;
+            height: 102px;
+            padding: 1%;
+            background-color: #0dc2b3;
+            top: 40%;
+            right: 0;
+            color: white;
+            font-size: 60px;
+            line-height: 100px;
+        }
+        .work{ 
+            text-align: center;
+            margin-top: 20px;
+        }
+        .our{ 
+            background-color: #0dc2b3;
+            color: white;
+            display: inline-block;
+            padding: 3px 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <nav>
+        <div class="logo"><b>DESIGN</b>AGENCY</div>
+        <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">WORK</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+            
+        </ul>
+    </nav>
+    <div class="landing">
+        <div class="best">
+        <h1>DESIGN STUDIO FROM NEW YORK</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reprehenderit, earum reiciendis accusamus commodi veniam mollitia tempora possimus autem nihil quam officiis, consectetur et voluptates doloribus facere nemo unde corporis!</p>
+        </div>
+        <div class="arrow"> > </div>
+    </div>
+    <div class="work"> 
+    <h2 class="our">OUR WORK</h2>
+    <p>These are some of our previous work</p>
+    </div>
+</body>
+</html>
